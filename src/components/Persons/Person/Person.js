@@ -17,10 +17,10 @@ const StyledDiv = styled.div`
   `;
 
 const person = (props) => {
-  const rnd = Math.random();
-  if (rnd > 0.7) {
-    throw new Error('Something went wrong!');
-  }
+  // const rnd = Math.random();
+  // if (rnd > 0.7) {
+  //   throw new Error('Something went wrong!');
+  // }
 
   return (
     <StyledDiv>
